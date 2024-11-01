@@ -40,7 +40,7 @@ PostmanにはGlobal変数と環境変数の２つがあります。どちらも�
 
 この画面で追加、変更できます。
 
-![postman_global_var](../images/postman_variable/postman_global_var.png)
+![postman_global_var](/images/postman_variable/postman_global_var.png)
 
 ### 環境変数
 
@@ -50,7 +50,7 @@ PostmanにはGlobal変数と環境変数の２つがあります。どちらも�
 
 環境は右上の赤線で囲まれたところをクリックすると変わります。ここでは環境Testが選択されています。
 
-![postman_environments](../images/postman_variable/postman_environments.png)
+![postman_environments](/images/postman_variable/postman_environments.png)
 
 環境としては「No environment」「Release」「Test」があります。
 
@@ -59,15 +59,15 @@ PostmanにはGlobal変数と環境変数の２つがあります。どちらも�
 - 環境「No environment」では環境変数を設定できません。
 
 
-![postman_environments_select](../images/postman_variable/postman_environments_select.png)
+![postman_environments_select](/images/postman_variable/postman_environments_select.png)
 
 環境Testには環境変数として「token_key」「base_url」を登録しています。
 
-![postman_var_list_main](../images/postman_variable/postman_var_list_main.png)
+![postman_var_list_main](/images/postman_variable/postman_var_list_main.png)
 
 右上のvariablesボタンを押すと右側に変数一覧を表示します。
 
-![postman_var_list_right](../images/postman_variable/postman_var_list_right.png)
+![postman_var_list_right](/images/postman_variable/postman_var_list_right.png)
 
 ## 変数を使ってAPIの実行
 
@@ -94,11 +94,11 @@ PostmanにはGlobal変数と環境変数の２つがあります。どちらも�
 http://{{base_url}}/authenticate
 ```
 
-![postman_setting_gettoken](../images/postman_variable/postman_setting_gettoken.png)
+![postman_setting_gettoken](/images/postman_variable/postman_setting_gettoken.png)
 
 2. ScriptsのPost-responseのトークンキーを環境変数「token_key」にセットするスクリプトを追加します。
 
-![postman_setting_gettoken_scripts](../images/postman_variable/postman_setting_gettoken_scripts.png)
+![postman_setting_gettoken_scripts](/images/postman_variable/postman_setting_gettoken_scripts.png)
 
 ``` javascripts
 
@@ -118,7 +118,7 @@ http://{{base_url}}/products/test?id=10000
 
 その他のAuth TypeでもGlobal変数と環境変数は使えますので、応用してみてください。
 
-![postman_setting_getdata](../images/postman_variable/postman_setting_getdata.png)
+![postman_setting_getdata](/images/postman_variable/postman_setting_getdata.png)
 
 ### トークンキー取得APIを実行する
 
@@ -126,11 +126,11 @@ http://{{base_url}}/products/test?id=10000
 
 1. リクエストGet Tokenを実行する。トークンキーが取得できました。
 
-![postman_get_token](../images/postman_variable/postman_get_token.png)
+![postman_get_token](/images/postman_variable/postman_get_token.png)
 
 2. リクエストGet Dataを実行する。データが取得できました。
 
-![postman_getdata](../images/postman_variable/postman_getdata.png)
+![postman_getdata](/images/postman_variable/postman_getdata.png)
 
 素晴らしい、トークンキーのコピー・ペーストをする必要がなくなりました。
 
@@ -156,7 +156,7 @@ pm.globals.set("token_key", pm.response.json().access_token)
 
 ここでは「base_urxx」なんて変数名はありません。
 
-![postman_mistake_varname](../images/postman_variable/postman_mistake_varname.png)
+![postman_mistake_varname](/images/postman_variable/postman_mistake_varname.png)
 
 ## さいごに
 
