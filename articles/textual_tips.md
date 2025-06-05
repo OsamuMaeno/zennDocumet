@@ -40,7 +40,7 @@ publication_name: "secondselection"
 - [2. さいごに](#2-さいごに)
 
 ## 1. TIPS集
-![textualイメージ](images/textual_tips/textual_image.png)
+![textualイメージ](/images/textual_tips/textual_image.png)
 
 画面をいくつか作ってみて、試行錯誤したところや気を付けたほうがいいところを書きます。
 
