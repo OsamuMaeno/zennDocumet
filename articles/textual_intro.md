@@ -18,7 +18,7 @@ GUIアプリとかブラウザなんかを考えたのですが、大げさな�
 
 ここではTextualの紹介します。
 
-![textualイメージ](images/textual_tips/textual_image.png)
+![textualイメージ](/images/textual_tips/textual_image.png)
 
 ## 目次
 - [はじめに](#はじめに)
