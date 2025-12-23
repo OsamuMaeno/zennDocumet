@@ -1,21 +1,19 @@
 {
   "name": "Ubuntu",
-  "dockerComposeFile": [
-    "../docker-compose.yml"
-  ],
-  "workspaceFolder": "/opt/app",
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
   "features": {
     "ghcr.io/devcontainers/features/node:1": {}
   },
   "customizations": {
     "vscode": {
       "extensions": [
-        "taichi.vscode-textlint",
+        "3w36zj6.textlint",
         "DavidAnson.vscode-markdownlint",
-        "hediet.vscode-drawio"
+        "hediet.vscode-drawio",
+        "bierner.markdown-mermaid"
       ],
       "settings": {}
     }
   },
-  "postCreateCommand": "yarn install"
+  "postCreateCommand": "./.devcontainer/PostCommand.sh "
 }
